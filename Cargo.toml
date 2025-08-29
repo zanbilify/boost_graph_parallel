@@ -1,0 +1,42 @@
+[package]
+name = "boost_graph_parallel"
+description = "Boost C++ library boost_graph_parallel packaged using Zanbil"
+version = "0.1.0"
+edition = "2024"
+links = "boost_graph_parallel"
+license = "BSL-1.0"
+repository = "https://github.com/zanbilify/boost_graph_parallel"
+
+[package.metadata.zanbil]
+make_dependencies_public = true
+
+[dependencies]
+boost_algorithm = { version = "0.1.0", path = "../boost_algorithm" }
+boost_assert = { version = "0.1.0", path = "../boost_assert" }
+boost_concept_check = { version = "0.1.0", path = "../boost_concept_check" }
+boost_config = { version = "0.1.0", path = "../boost_config" }
+boost_container_hash = { version = "0.1.0", path = "../boost_container_hash" }
+boost_core = { version = "0.1.0", path = "../boost_core" }
+boost_detail = { version = "0.1.0", path = "../boost_detail" }
+boost_dynamic_bitset = { version = "0.1.0", path = "../boost_dynamic_bitset" }
+boost_filesystem = { version = "0.1.0", path = "../boost_filesystem" }
+boost_foreach = { version = "0.1.0", path = "../boost_foreach" }
+boost_function = { version = "0.1.0", path = "../boost_function" }
+boost_graph = { version = "0.1.0", path = "../boost_graph" }
+boost_iterator = { version = "0.1.0", path = "../boost_iterator" }
+boost_lexical_cast = { version = "0.1.0", path = "../boost_lexical_cast" }
+boost_mpi = { version = "0.1.0", path = "../boost_mpi" }
+boost_mpl = { version = "0.1.0", path = "../boost_mpl" }
+boost_optional = { version = "0.1.0", path = "../boost_optional" }
+boost_property_map = { version = "0.1.0", path = "../boost_property_map" }
+boost_property_map_parallel = { version = "0.1.0", path = "../boost_property_map_parallel" }
+boost_random = { version = "0.1.0", path = "../boost_random" }
+boost_serialization = { version = "0.1.0", path = "../boost_serialization" }
+boost_smart_ptr = { version = "0.1.0", path = "../boost_smart_ptr" }
+boost_static_assert = { version = "0.1.0", path = "../boost_static_assert" }
+boost_tuple = { version = "0.1.0", path = "../boost_tuple" }
+boost_type_traits = { version = "0.1.0", path = "../boost_type_traits" }
+boost_variant = { version = "0.1.0", path = "../boost_variant" }
+
+[build-dependencies]
+zanbil-boost-build = "0.1.0"
